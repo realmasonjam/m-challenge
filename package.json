@@ -5,7 +5,8 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "tsc && node dist/app.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "lint": "tslint -p . --fix"
   },
   "repository": {
     "type": "git",
